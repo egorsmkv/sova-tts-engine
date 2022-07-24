@@ -6,8 +6,8 @@ device: "cuda:0"
 epochs: 100
 iters_per_checkpoint: 1000
 
-output_dir:
-log_dir:
+output_dir: /home/yehor/TTS-Tacotron/output
+log_dir: /home/yehor/TTS-Tacotron/output/logs
 
 checkpoint:
 warm_start: true
@@ -28,14 +28,14 @@ ignore_mismatched_layers: True  # automatically ignore checkpoint layers with an
 # Data Parameters             #
 ################################
 load_mel_from_disk: False
-audios_path:
+audios_path: /home/yehor/TTS-Tacotron
 alignments_path:
   original:
   stressed:
-training_files:
-validation_files:
+training_files: /home/yehor/TTS-Tacotron/train.txt
+validation_files: /home/yehor/TTS-Tacotron/validation.txt
 
-charset: "ru" # possible entries: ru, en
+charset: "uk" # possible entries: ru, en, uk
 use_basic_handler: true
 
 # mask_stress: Union[float, bool]. If float, the number must be in {0, 1} - the probability of masking stressed

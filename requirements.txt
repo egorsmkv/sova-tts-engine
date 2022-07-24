@@ -7,4 +7,3 @@ torch_optimizer==0.1.0
 tensorboard==1.15.0
 tqdm
 pyaml
--e git+https://github.com/egorsmkv/sova-tts-tps@v1.2.0#egg=TPS

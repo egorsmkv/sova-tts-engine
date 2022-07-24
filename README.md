@@ -11,7 +11,7 @@ Key differences:
 
 # How to train a new model
 
-First of all you need to install all dependencies (which can be found in the reuqirements.txt) and convert the dataset to the LJ Speech format, where each line contains relative path to the audio file and its text, separated by "|" sign, e.g.:
+First of all you need to install all dependencies (which can be found in the reuqirements.txt) + `git clone git@github.com:egorsmkv/sova-tts-tps.git src/tps` and convert the dataset to the LJ Speech format, where each line contains relative path to the audio file and its text, separated by "|" sign, e.g.:
 
 > wavs/000000.wav|С трев+ожным ч+увством бер+усь я з+а пер+о.
 
